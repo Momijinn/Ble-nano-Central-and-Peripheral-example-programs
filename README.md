@@ -1,15 +1,22 @@
-# Ble-nano-Central-and-Peripheral-example-programs
+Ble-nano-Central-and-Peripheral-example-programs
+====
 BLE nanoにおけるCentralとPeripheralの通信制御のサンプルプログラム
 
-Blenano(Arduino化済み)にて、BLEnano同士の通信を行うためのサンプルプログラム  
+## Description
+Blenano(Arduino化済み)にて、BLEnano同士でBLE通信を行うためのサンプルプログラム.
 
-BLE_CentaralTest:セントラル側(サーバー)  
-BLE_SimplePeripheral:ペリフェラル側(クラアント)  
+3つのデータをセントラルへ送信しているプログラム.3つのデータは、1秒ごとに動的に変化させています.
 
-プログラム内に記載されているコメントは自分なりの解釈で記述しました  
-そのため、詳細に知りたいときは個別で検索をお願いします  
+## Requirement
+BLE nano２台
 
+## Usage
+CentralにはBLE_SimplePeripheral.inoを書き込み、PeripheralにはBLE_SimplePeripheral.inoを書き込む
 
-#　何をしているプログラムか
-3つのデータをセントラルへ送信しているプログラムです  
-3つのデータは、1秒ごとに動的に変化させています  
+## Licence
+This software is released under the MIT License, see LICENSE.
+
+## Author
+[Twitter](https://twitter.com/momijinn_aka)
+
+[Blog](http://www.autumn-color.com/)
